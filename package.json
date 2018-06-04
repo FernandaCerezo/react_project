@@ -1,0 +1,54 @@
+{
+  "dependencies": {
+    "accounts-base-client-side": "^0.1.1",
+    "apollo-boost": "^0.1.6",
+    "apollo-cache-inmemory": "^1.2.1",
+    "apollo-client": "^2.3.1",
+    "apollo-link-http": "^1.5.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.0",
+    "react": "^16.3.2",
+    "react-apollo": "^2.1.4",
+    "react-dom": "^16.3.2",
+    "react-facebook-login-component": "^0.9.2",
+    "react-modal": "^3.4.4",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^1.1.4",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "validator": "^9.4.1",
+    "webpack": "^4.6.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "name": "alexis",
+  "version": "1.0.0",
+  "description": "alexis",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "react-scripts build",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "dev-server": "webpack-dev-server",
+    "start": "react-scripts start",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "alexisdaniel",
+  "devDependencies": {
+    "webpack-cli": "^2.0.14"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  }
+}

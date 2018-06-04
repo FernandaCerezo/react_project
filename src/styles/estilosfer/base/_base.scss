@@ -1,0 +1,43 @@
+html{
+  font-size: 65.5%;
+}
+h1{
+  font-family: 'Satisfy', cursive;
+  font-size: $xl-size;
+  color: $off-white;
+}
+h3{
+  font-family: 'Satisfy', cursive;
+  font-size: $m-size;
+  color: $off-black;
+}
+p{
+  font-family: 'Questrial', sans-serif;
+  font-size: $m-size;
+  color: $off-black;
+}
+body{
+  background: $off-white;
+  font-family: 'Questrial', sans-serif;
+  color: $off-black;
+  font-size: $m-size;
+}
+
+button{
+  cursor: pointer;
+  font-family: 'Acme', sans-serif;
+  width:30px;
+  height:30px;
+  background-color:#03800b;
+//  margin: 5px;
+  padding:10px;
+  text-align: center;
+  -webkit-border-radius: 70px;
+  //-moz-border-radius: 70px;
+  border-radius: 70px;
+  font-size:$xm-size;
+  //line-height:32px;
+}
+button:disabled{
+  cursor: default;
+}

@@ -1,0 +1,35 @@
+.container{
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 $m-size;
+  color: black;
+  text-align: center;
+
+}
+
+.containercuerpo{
+  background: $purple;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 $m-size;
+  color: black;
+  text-align: center;
+
+}
+
+.containerinicio{
+  background: #F2F2F2;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 $m-size;
+  color: black;
+  text-align: center;
+  font-size: 20px
+}
+
+.containerbutton{
+  display: inherit;
+  width:20rem;
+  margin: 0 auto;
+  text-align: center;
+}

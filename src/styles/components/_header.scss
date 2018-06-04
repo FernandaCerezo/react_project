@@ -1,0 +1,26 @@
+.header{
+  background: #20222b;
+  color: black;
+  margin-buttom: $xl-size;
+  padding: $m-size 0;
+}
+
+.header__title{
+  font-size: $l-size;
+  margin: 0;
+}
+
+.header__subtitle{
+  color: #04B431;
+  font-size: $m-size;
+  font-weight: 500;
+  margin: 0;
+}
+
+
+.cuerpo{
+  background: #FFFFFF;
+  color: white;
+  margin-buttom: $xl-size;
+  padding: $m-size 0;
+}

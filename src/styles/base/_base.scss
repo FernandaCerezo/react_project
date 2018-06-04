@@ -1,0 +1,38 @@
+html{
+  font-size: 65.5%;
+}
+h1{
+  font-family: 'Satisfy', cursive;
+  font-size: $xl-size;
+  color: $off-white;
+}
+h3{
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  color: $off-black;
+}
+p{
+  font-family: 'Questrial', sans-serif;
+  font-size: $m-size;
+  color: $off-black;
+}
+body{
+  background: $off-white;
+  font-family: 'Questrial', sans-serif;
+  color: $off-black;
+  font-size: $m-size;
+}
+
+button{
+  cursor: pointer;
+  font-family: 'Acme', sans-serif;
+  width:4rem;
+  height:4rem;
+  padding:1rem;
+  -webkit-border-radius: 4rem;
+  font-size:$xm-size;
+  text-align: center;
+}
+button:disabled{
+  cursor: default;
+}

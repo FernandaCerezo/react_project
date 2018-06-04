@@ -1,0 +1,46 @@
+.big-button{
+  background: $blue;
+  border: none;
+  text-align: center;
+  border-bottom: .6rem solid darken($blue, 10%);
+  color: white;
+  font-weight: bold;
+  font-size: $l-size;
+  margin-bottom: $xl-size;
+  padding: $s-size;
+  width: 100%;
+}
+
+.big-button:disabled{
+  opacity: .5;
+}
+
+.button--sum{
+  background: $pink;
+  border: none;
+  box-shadow: 0.125rem 0.125rem  0.1875rem 0;
+  padding: $s-size;
+}
+
+.button--rest{
+  background: $red;
+  border: none;
+  box-shadow: 0.125rem 0.125rem  0.1875rem 0;
+  font-weight: 500;
+  padding: $s-size;
+}
+.button--mul{
+  background: $purple;
+  border: none;
+  font-weight: 500;
+  border: none;
+  box-shadow: 0.125rem 0.125rem  0.1875rem 0;
+  padding: $s-size;
+}
+.button--div{
+  background: $yellow;
+  border: none;
+  box-shadow: 0.125rem 0.125rem  0.1875rem 0;
+  font-weight: 500;
+  padding: $s-size;
+}
